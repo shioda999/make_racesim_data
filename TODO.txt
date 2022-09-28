@@ -1,0 +1,9 @@
+git clone https://github.com/axelbr/racecar_gym.git
+
+python -m venv venv
+venv/Scripts/activate
+pip install -U pip
+cd racecar_gym
+pip install -e .
+
+・軌跡のプロットプログラムを作成し、元のデータと逆強化学習の軌跡の誤差を確認する。
